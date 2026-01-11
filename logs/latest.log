@@ -1,70 +1,91 @@
-[00:04:08] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[00:04:10] [ServerMain/INFO]: Loaded 1290 recipes
-[00:04:10] [ServerMain/INFO]: Loaded 1399 advancements
-[00:04:10] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[00:04:10] [Server thread/INFO]: Loading properties
-[00:04:10] [Server thread/INFO]: Default game type: SURVIVAL
-[00:04:10] [Server thread/INFO]: Generating keypair
-[00:04:10] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:04:10] [Server thread/INFO]: Using default channel type
-[00:04:10] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[00:04:10] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[00:04:10] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[00:04:10] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[00:04:10] [Server thread/INFO]: Preparing level "world"
-[00:04:11] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:04:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[00:04:12] [Server thread/INFO]: Time elapsed: 316 ms
-[00:04:12] [Server thread/INFO]: Done (1.222s)! For help, type "help"
-[00:04:52] [Server thread/INFO]: KpoJIeBapKa[/192.168.0.1:4124] logged in with entity id 65 at (1282.1760750089932, 69.49978679299414, -1772.2978190351748)
-[00:04:52] [Server thread/INFO]: KpoJIeBapKa joined the game
-[00:10:13] [Server thread/INFO]: [KpoJIeBapKa: Set the time to 1000]
-[00:19:29] [Server thread/INFO]: [KpoJIeBapKa: Set the time to 1000]
-[00:29:18] [Server thread/INFO]: [KpoJIeBapKa: Set the time to 1000]
-[00:40:18] [Server thread/INFO]: [KpoJIeBapKa: Set the time to 1000]
-[00:54:32] [Server thread/INFO]: [KpoJIeBapKa: Set the time to 1000]
-[01:03:22] [Server thread/INFO]: [KpoJIeBapKa: Set the time to 1000]
-[01:06:52] [Server thread/INFO]: [KpoJIeBapKa: Set the time to 13000]
-[01:09:48] [Netty Server IO #16/ERROR]: Error sending packet clientbound/minecraft:disconnect
-io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
-	at yw.a(SourceFile:47) ~[server-1.21.1.jar:?]
-	at yw.encode(SourceFile:14) ~[server-1.21.1.jar:?]
-	at we.a(SourceFile:26) ~[server-1.21.1.jar:?]
-	at we.encode(SourceFile:12) ~[server-1.21.1.jar:?]
-	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at vt$2.write(SourceFile:530) ~[server-1.21.1.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:940) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:966) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:934) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1025) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:306) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at vt.c(SourceFile:350) ~[server-1.21.1.jar:?]
-	at vt.b(SourceFile:343) ~[server-1.21.1.jar:?]
-	at vt.a(SourceFile:325) ~[server-1.21.1.jar:?]
-	at vt.a(SourceFile:319) ~[server-1.21.1.jar:?]
-	at vt.exceptionCaught(SourceFile:170) ~[server-1.21.1.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1377) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:907) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.handleReadException(AbstractNioByteChannel.java:125) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:177) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[01:14:44] [Server thread/INFO]: KpoJIeBapKa lost connection: Disconnected
-[01:14:44] [Server thread/INFO]: KpoJIeBapKa left the game
+[01:03:43] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01:03:44] [ServerMain/INFO]: Loaded 1290 recipes
+[01:03:44] [ServerMain/INFO]: Loaded 1399 advancements
+[01:03:44] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[01:03:44] [Server thread/INFO]: Loading properties
+[01:03:44] [Server thread/INFO]: Default game type: SURVIVAL
+[01:03:44] [Server thread/INFO]: Generating keypair
+[01:03:44] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:03:44] [Server thread/INFO]: Using default channel type
+[01:03:44] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:03:44] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:03:44] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:03:44] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:03:44] [Server thread/INFO]: Preparing level "world"
+[01:03:45] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:03:46] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[01:03:46] [Server thread/INFO]: Time elapsed: 331 ms
+[01:03:46] [Server thread/INFO]: Done (1.322s)! For help, type "help"
+[01:03:46] [Server thread/INFO]: KpoJIeBapKa[/192.168.0.1:5805] logged in with entity id 60 at (1280.7970741435593, 67.0, -1744.6639108435093)
+[01:03:47] [Server thread/INFO]: KpoJIeBapKa joined the game
+[01:03:53] [Server thread/INFO]: kartooonka[/46.219.247.81:40069] logged in with entity id 435 at (1248.743061718498, 71.06842198826054, -1728.2801967107484)
+[01:03:53] [Server thread/INFO]: kartooonka joined the game
+[01:03:54] [Server thread/INFO]: LmR2222[/92.177.185.219:60977] logged in with entity id 464 at (1099.884915264332, 55.0, -1825.1955905716748)
+[01:03:54] [Server thread/INFO]: LmR2222 joined the game
+[01:03:54] [Server thread/WARN]: UUID of added entity already exists: cfv['Pig'/613, l='ServerLevel[world]', x=1213.49, y=68.00, z=-2016.05]
+[01:03:54] [Server thread/WARN]: UUID of added entity already exists: cff['Bee'/618, l='ServerLevel[world]', x=911.91, y=63.70, z=-1936.55]
+[01:04:13] [Server thread/INFO]: [KpoJIeBapKa: Set kartooonka's game mode to Survival Mode]
+[01:04:18] [Server thread/INFO]: kartooonka was killed
+[01:04:18] [Server thread/INFO]: [KpoJIeBapKa: Killed kartooonka]
+[01:04:19] [Server thread/WARN]: kartooonka moved too quickly! 16.724954304634593,19.0,-19.559988756995608
+[01:06:29] [Server thread/INFO]: KpoJIeBapKa has made the advancement [A Seedy Place]
+[01:07:33] [Server thread/INFO]: LmR2222 has made the advancement [Sweet Dreams]
+[01:08:58] [Server thread/INFO]: kartooonka lost connection: Disconnected
+[01:08:58] [Server thread/INFO]: kartooonka left the game
+[01:09:47] [Server thread/INFO]: kartooonka[/46.219.247.81:39985] logged in with entity id 2257 at (1083.300000011921, 70.875, -1830.300000011921)
+[01:09:47] [Server thread/INFO]: kartooonka joined the game
+[01:09:55] [Server thread/INFO]: kartooonka lost connection: Disconnected
+[01:09:55] [Server thread/INFO]: kartooonka left the game
+[01:16:30] [Server thread/INFO]: KpoJIeBapKa has made the advancement [Getting an Upgrade]
+[01:17:28] [Server thread/INFO]: kartooonka[/46.219.247.81:40890] logged in with entity id 3240 at (1083.300000011921, 71.0, -1830.650501414541)
+[01:17:28] [Server thread/INFO]: kartooonka joined the game
+[01:17:33] [Server thread/INFO]: kartooonka lost connection: Disconnected
+[01:17:33] [Server thread/INFO]: kartooonka left the game
+[01:18:30] [Server thread/INFO]: kartooonka[/46.219.247.81:40414] logged in with entity id 3385 at (1083.300000011921, 71.0, -1830.650501414541)
+[01:18:30] [Server thread/INFO]: kartooonka joined the game
+[01:23:18] [Server thread/INFO]: KpoJIeBapKa has made the advancement [Monster Hunter]
+[01:28:28] [Server thread/INFO]: KpoJIeBapKa has made the advancement [Sweet Dreams]
+[01:28:45] [Server thread/INFO]: kartooonka has made the advancement [Sweet Dreams]
+[01:30:20] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=945, y=59, z=-1703} jd{x=945, y=60, z=-1703}
+[01:32:31] [Server thread/INFO]: kartooonka lost connection: Disconnected
+[01:32:31] [Server thread/INFO]: kartooonka left the game
+[01:33:36] [Server thread/INFO]: KpoJIeBapKa was impaled by Drowned
+[01:33:37] [Server thread/WARN]: KpoJIeBapKa moved too quickly! 397.2251547592268,3.510326546286535,-97.90297469214761
+[01:33:37] [Server thread/WARN]: KpoJIeBapKa moved too quickly! 397.2251547592268,3.510326546286535,-97.90297469214761
+[01:33:37] [Server thread/WARN]: KpoJIeBapKa moved too quickly! 397.2251547592268,3.510326546286535,-97.90297469214761
+[01:35:00] [Server thread/INFO]: LmR2222 has made the advancement [Acquire Hardware]
+[01:35:34] [Server thread/INFO]: kartooonka[/46.219.247.81:40447] logged in with entity id 11696 at (840.1047422323401, 66.0, -1952.1996351151367)
+[01:35:34] [Server thread/INFO]: kartooonka joined the game
+[01:35:39] [Server thread/INFO]: kartooonka lost connection: Disconnected
+[01:35:39] [Server thread/INFO]: kartooonka left the game
+[01:39:14] [Server thread/INFO]: KpoJIeBapKa has made the advancement [Acquire Hardware]
+[01:39:35] [Server thread/INFO]: KpoJIeBapKa has made the advancement [Isn't It Iron Pick]
+[01:43:48] [Server thread/INFO]: KpoJIeBapKa has made the advancement [Diamonds!]
+[01:54:20] [Server thread/INFO]: KpoJIeBapKa lost connection: Disconnected
+[01:54:20] [Server thread/INFO]: KpoJIeBapKa left the game
+[01:54:28] [Server thread/INFO]: KpoJIeBapKa[/192.168.0.1:54167] logged in with entity id 21208 at (1218.300000011921, -36.0, -2136.30466944497)
+[01:54:28] [Server thread/INFO]: KpoJIeBapKa joined the game
+[01:54:35] [Server thread/INFO]: KpoJIeBapKa was shot by Skeleton
+[01:54:36] [Server thread/WARN]: KpoJIeBapKa moved too quickly! 54.19999998807907,106.0,385.82706720622673
+[01:54:36] [Server thread/WARN]: KpoJIeBapKa moved too quickly! 54.19999998807907,106.0,385.82706720622673
+[01:56:14] [Server thread/INFO]: KpoJIeBapKa has made the advancement [Best Friends Forever]
+[02:02:56] [Server thread/INFO]: KpoJIeBapKa lost connection: Disconnected
+[02:02:56] [Server thread/INFO]: KpoJIeBapKa left the game
+[02:02:58] [Server thread/INFO]: KpoJIeBapKa[/192.168.0.1:7539] logged in with entity id 29393 at (1060.3930013804872, 63.0, -1725.7642409178134)
+[02:02:58] [Server thread/INFO]: KpoJIeBapKa joined the game
+[02:06:33] [Server thread/INFO]: LmR2222 lost connection: Disconnected
+[02:06:33] [Server thread/INFO]: LmR2222 left the game
+[02:06:57] [Server thread/INFO]: KpoJIeBapKa drowned
+[02:06:58] [Server thread/WARN]: KpoJIeBapKa moved too quickly! -539.2296412446369,22.0,557.1636136411553
+[02:07:08] [Server thread/INFO]: KpoJIeBapKa lost connection: Disconnected
+[02:07:08] [Server thread/INFO]: KpoJIeBapKa left the game
+[02:07:10] [Server thread/INFO]: KpoJIeBapKa[/192.168.0.1:7434] logged in with entity id 33476 at (1051.2171150128618, 69.1212968405392, -1846.8278216921758)
+[02:07:10] [Server thread/INFO]: KpoJIeBapKa joined the game
+[02:07:30] [Server thread/INFO]: Villager cmk['Villager'/33547, l='ServerLevel[world]', x=1112.37, y=67.00, z=-1795.07] died, message: 'Villager was slain by Zombie'
+[02:07:39] [Server thread/INFO]: Villager cmk['Villager'/33549, l='ServerLevel[world]', x=1111.79, y=67.00, z=-1794.96] died, message: 'Villager was slain by Zombie'
+[02:07:41] [Server thread/INFO]: KpoJIeBapKa lost connection: Disconnected
+[02:07:41] [Server thread/INFO]: KpoJIeBapKa left the game
+[02:07:42] [Server thread/INFO]: KpoJIeBapKa[/192.168.0.1:54290] logged in with entity id 33860 at (1094.4430756377717, 70.9375, -1855.3268092827072)
+[02:07:42] [Server thread/INFO]: KpoJIeBapKa joined the game
+[02:10:36] [Server thread/INFO]: KpoJIeBapKa lost connection: Disconnected
+[02:10:36] [Server thread/INFO]: KpoJIeBapKa left the game
