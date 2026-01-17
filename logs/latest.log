@@ -1,26 +1,215 @@
-[23:48:56] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[23:48:57] [ServerMain/INFO]: Loaded 1290 recipes
-[23:48:57] [ServerMain/INFO]: Loaded 1399 advancements
-[23:48:57] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[23:48:57] [Server thread/INFO]: Loading properties
-[23:48:57] [Server thread/INFO]: Default game type: SURVIVAL
-[23:48:57] [Server thread/INFO]: Generating keypair
-[23:48:58] [Server thread/INFO]: Starting Minecraft server on *:25565
-[23:48:58] [Server thread/INFO]: Using default channel type
-[23:48:58] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[23:48:58] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[23:48:58] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[23:48:58] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[23:48:58] [Server thread/INFO]: Preparing level "world"
-[23:48:58] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[23:48:59] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[23:48:59] [Server thread/INFO]: Time elapsed: 294 ms
-[23:48:59] [Server thread/INFO]: Done (1.101s)! For help, type "help"
-[23:51:24] [Server thread/INFO]: TheHomer[/192.168.0.1:17716] logged in with entity id 21 at (1104.3098726608978, 31.0, -1795.9545489332306)
-[23:51:24] [Server thread/INFO]: TheHomer joined the game
-[23:56:57] [Server thread/INFO]: TheHomer lost connection: Disconnected
-[23:56:57] [Server thread/INFO]: TheHomer left the game
-[23:57:29] [Server thread/INFO]: TheHomer[/192.168.0.1:17554] logged in with entity id 1481 at (1130.7262305866604, 4.0, -1829.4686122169614)
-[23:57:29] [Server thread/INFO]: TheHomer joined the game
-[23:57:34] [Server thread/INFO]: TheHomer lost connection: Disconnected
-[23:57:34] [Server thread/INFO]: TheHomer left the game
+[01:19:18] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01:19:19] [ServerMain/INFO]: Loaded 1290 recipes
+[01:19:20] [ServerMain/INFO]: Loaded 1399 advancements
+[01:19:20] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[01:19:20] [Server thread/INFO]: Loading properties
+[01:19:20] [Server thread/INFO]: Default game type: SURVIVAL
+[01:19:20] [Server thread/INFO]: Generating keypair
+[01:19:20] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:19:20] [Server thread/INFO]: Using default channel type
+[01:19:20] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:19:20] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:19:20] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:19:20] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:19:20] [Server thread/INFO]: Preparing level "world"
+[01:19:21] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:19:21] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[01:19:21] [Server thread/INFO]: Time elapsed: 263 ms
+[01:19:21] [Server thread/INFO]: Done (1.113s)! For help, type "help"
+[01:19:24] [Server thread/INFO]: thelemaua[/46.219.247.81:40102] logged in with entity id 65 at (784.1723766822396, 64.0, 944.5943055848419)
+[01:19:24] [Server thread/INFO]: thelemaua joined the game
+[01:19:28] [Server thread/INFO]: Mayc[/91.198.249.49:48865] logged in with entity id 323 at (1003.9054569628776, 117.0, 990.3000000119209)
+[01:19:28] [Server thread/INFO]: Mayc joined the game
+[01:19:29] [Server thread/INFO]: KpoJIeBapKa[/192.168.0.1:56572] logged in with entity id 485 at (793.5692570929263, 64.0, 945.956764764828)
+[01:19:29] [Server thread/INFO]: KpoJIeBapKa joined the game
+[01:19:30] [Server thread/INFO]: Sudarek[/147.232.182.209:59134] logged in with entity id 532 at (828.3000000119209, 39.231523797587016, 974.4070275586665)
+[01:19:30] [Server thread/INFO]: Sudarek joined the game
+[01:19:38] [Server thread/INFO]: TheHomer[/192.168.0.1:56756] logged in with entity id 580 at (836.4735669702559, 47.0, 974.6999999880791)
+[01:19:38] [Server thread/INFO]: TheHomer joined the game
+[01:19:49] [Server thread/INFO]: TheHomer lost connection: Disconnected
+[01:19:49] [Server thread/INFO]: TheHomer left the game
+[01:20:26] [Server thread/INFO]: TheHomer[/192.168.0.1:56554] logged in with entity id 767 at (844.4262377088564, 55.0, 974.6867937096541)
+[01:20:26] [Server thread/INFO]: TheHomer joined the game
+[01:20:30] [Server thread/INFO]: TheHomer lost connection: Disconnected
+[01:20:30] [Server thread/INFO]: TheHomer left the game
+[01:21:20] [Server thread/INFO]: LmR2222[/92.177.185.219:61511] logged in with entity id 1062 at (895.922410341937, 83.0, 1036.7610591953794)
+[01:21:20] [Server thread/INFO]: LmR2222 joined the game
+[01:22:02] [Server thread/INFO]: thelemaua lost connection: Disconnected
+[01:22:02] [Server thread/INFO]: thelemaua left the game
+[01:22:08] [Server thread/INFO]: TheHomer[/192.168.0.1:56873] logged in with entity id 1479 at (844.4262377088564, 55.0, 974.6867937096541)
+[01:22:08] [Server thread/INFO]: TheHomer joined the game
+[01:22:17] [Server thread/INFO]: TheHomer lost connection: Disconnected
+[01:22:17] [Server thread/INFO]: TheHomer left the game
+[01:24:04] [Server thread/INFO]: thelemaua[/46.219.247.81:40434] logged in with entity id 1982 at (735.1167705928561, 62.110764312744145, 805.470951691177)
+[01:24:04] [Server thread/INFO]: thelemaua joined the game
+[01:24:09] [Server thread/INFO]: thelemaua lost connection: Disconnected
+[01:24:09] [Server thread/INFO]: thelemaua left the game
+[01:25:22] [Server thread/INFO]: Sudarek has made the advancement [Diamonds!]
+[01:25:47] [Server thread/INFO]: Sudarek has made the advancement [Not Today, Thank You]
+[01:25:54] [Server thread/INFO]: TheHomer[/192.168.0.1:51144] logged in with entity id 2643 at (849.8681583072615, 61.12160004615784, 974.4064711615372)
+[01:25:54] [Server thread/INFO]: TheHomer joined the game
+[01:26:12] [Server thread/INFO]: thelemaua[/46.219.247.81:40168] logged in with entity id 2756 at (735.1167705928561, 62.110764312744145, 805.470951691177)
+[01:26:12] [Server thread/INFO]: thelemaua joined the game
+[01:26:17] [Server thread/INFO]: TheHomer lost connection: Disconnected
+[01:26:17] [Server thread/INFO]: TheHomer left the game
+[01:27:14] [Server thread/INFO]: TheHomer[/192.168.0.1:51194] logged in with entity id 4201 at (850.9477300287651, 64.0, 995.41134901053)
+[01:27:14] [Server thread/INFO]: TheHomer joined the game
+[01:27:15] [Server thread/INFO]: [KpoJIeBapKa: Teleported KpoJIeBapKa to thelemaua]
+[01:27:33] [Server thread/INFO]: KpoJIeBapKa was blown up by Creeper
+[01:27:34] [Server thread/WARN]: KpoJIeBapKa moved too quickly! 364.1565871935245,1.5625,466.42193341880187
+[01:28:31] [Server thread/INFO]: TheHomer has made the advancement [Sweet Dreams]
+[01:29:14] [Server thread/INFO]: KpoJIeBapKa has made the advancement [Acquire Hardware]
+[01:29:20] [Server thread/INFO]: KpoJIeBapKa has made the advancement [Isn't It Iron Pick]
+[01:29:49] [Server thread/INFO]: thelemaua was killed
+[01:29:49] [Server thread/INFO]: [KpoJIeBapKa: Killed thelemaua]
+[01:29:53] [Server thread/WARN]: thelemaua moved too quickly! 181.8125,1.8892356872558551,607.7329625894196
+[01:29:53] [Server thread/WARN]: thelemaua moved too quickly! 181.8125,1.8892356872558551,607.7329625894196
+[01:29:53] [Server thread/WARN]: thelemaua moved too quickly! 181.8125,1.8892356872558551,607.7329625894196
+[01:29:53] [Server thread/WARN]: thelemaua moved too quickly! 181.8125,1.8892356872558551,607.7329625894196
+[01:30:05] [Server thread/INFO]: Mayc was blown up by Creeper
+[01:30:54] [Server thread/INFO]: thelemaua has made the advancement [Monster Hunter]
+[01:31:00] [Server thread/INFO]: [Not Secure] <Mayc> лимр шо то за лагерь строгого режима?
+[01:31:19] [Server thread/INFO]: LmR2222 has made the advancement [Monster Hunter]
+[01:32:27] [Server thread/INFO]: [KpoJIeBapKa: Set the time to 1000]
+[01:40:52] [Server thread/INFO]: KpoJIeBapKa was shot by Skeleton
+[01:41:12] [Server thread/INFO]: TheHomer has made the advancement [Acquire Hardware]
+[01:41:17] [Server thread/INFO]: TheHomer has made the advancement [Isn't It Iron Pick]
+[01:41:47] [Server thread/INFO]: Sudarek lost connection: Disconnected
+[01:41:47] [Server thread/INFO]: Sudarek left the game
+[01:42:06] [Server thread/INFO]: Mayc lost connection: Disconnected
+[01:42:06] [Server thread/INFO]: Mayc left the game
+[01:42:37] [Server thread/INFO]: TheHomer has made the advancement [Diamonds!]
+[01:42:44] [Server thread/INFO]: Mayc[/91.198.249.84:57827] logged in with entity id 12638 at (993.3658287850751, 117.0, 994.1024766915988)
+[01:42:44] [Server thread/INFO]: Mayc joined the game
+[01:43:00] [Server thread/INFO]: [Not Secure] <Mayc> бля кровать тоже не паше?
+[01:43:12] [Server thread/INFO]: Mayc fell from a high place
+[01:43:13] [Server thread/WARN]: Mayc moved too quickly! -76.0614523590225,-30.0,20.332356773316064
+[01:43:30] [Server thread/INFO]: [Not Secure] <KpoJIeBapKa> прибери оптіфайн
+[01:43:35] [Server thread/INFO]: [Not Secure] <KpoJIeBapKa> через нього крашить
+[01:48:09] [Server thread/INFO]: Sudarek[/147.232.182.209:49585] logged in with entity id 15857 at (779.8947073400814, -30.0, 975.3000000119209)
+[01:48:09] [Server thread/INFO]: Sudarek joined the game
+[01:49:01] [Server thread/INFO]: Mayc was shot by Skeleton
+[01:49:02] [Server thread/WARN]: Mayc moved too quickly! -125.17717980377961,-34.0,20.784120828014466
+[01:49:04] [Server thread/INFO]: Mayc lost connection: Disconnected
+[01:49:04] [Server thread/INFO]: Mayc left the game
+[01:49:43] [Server thread/INFO]: Mayc[/91.198.249.84:33770] logged in with entity id 17048 at (888.5, 84.0, 1021.5)
+[01:49:43] [Server thread/INFO]: Mayc joined the game
+[01:50:20] [Server thread/INFO]: TheHomer fell from a high place
+[01:50:21] [Server thread/WARN]: TheHomer moved too quickly! 84.68349236465167,116.0,-147.76117386667204
+[01:50:36] [Server thread/INFO]: Mayc has made the advancement [Sweet Dreams]
+[01:50:44] [Server thread/INFO]: TheHomer has made the advancement [Cover Me with Diamonds]
+[01:52:06] [Server thread/INFO]: TheHomer has made the advancement [Suit Up]
+[01:53:05] [Server thread/INFO]: KpoJIeBapKa has made the advancement [Voluntary Exile]
+[01:54:40] [Server thread/INFO]: thelemaua hit the ground too hard
+[01:54:40] [Server thread/INFO]: KpoJIeBapKa has made the advancement [You've Got a Friend in Me]
+[01:54:41] [Server thread/WARN]: thelemaua moved too quickly! 80.71132370364921,1.5625,11.031186845571824
+[01:54:41] [Server thread/WARN]: thelemaua moved too quickly! 80.71132370364921,1.5625,11.031186845571824
+[01:54:41] [Server thread/WARN]: thelemaua moved too quickly! 80.71132370364921,1.5625,11.031186845571824
+[01:54:41] [Server thread/WARN]: thelemaua moved too quickly! 80.71132370364921,1.5625,11.031186845571824
+[01:54:41] [Server thread/WARN]: thelemaua moved too quickly! 80.71132370364921,1.5625,11.031186845571824
+[01:54:58] [Server thread/INFO]: Sudarek was shot by Skeleton
+[01:55:02] [Server thread/INFO]: KpoJIeBapKa was shot by Skeleton
+[01:55:03] [Server thread/WARN]: KpoJIeBapKa moved too quickly! 769.7220149510342,68.0,301.5794078459189
+[01:57:02] [Server thread/INFO]: thelemaua lost connection: Disconnected
+[01:57:02] [Server thread/INFO]: thelemaua left the game
+[01:57:07] [Server thread/INFO]: KpoJIeBapKa lost connection: Disconnected
+[01:57:07] [Server thread/INFO]: KpoJIeBapKa left the game
+[01:57:51] [Server thread/INFO]: [Not Secure] <LmR2222> маус зайди войс
+[01:58:00] [Server thread/INFO]: [Not Secure] <Mayc> сча
+[01:58:58] [Server thread/INFO]: Mayc fell from a high place
+[02:01:08] [Server thread/INFO]: LmR2222 fell from a high place
+[02:02:51] [Server thread/INFO]: Mayc fell from a high place
+[02:05:22] [Server thread/INFO]: LmR2222 fell from a high place
+[02:06:01] [Server thread/INFO]: Sudarek was slain by Spider
+[02:07:08] [Server thread/INFO]: Mayc hit the ground too hard
+[02:07:09] [Server thread/WARN]: Mayc moved too quickly! -7.69716896817431,47.0,858.0356760143436
+[02:07:09] [Server thread/WARN]: Mayc moved too quickly! -7.69716896817431,47.0,858.0356760143436
+[02:08:30] [Server thread/INFO]: Sudarek has made the advancement [Cover Me with Diamonds]
+[02:08:49] [Server thread/INFO]: Mayc was slain by Zombie
+[02:08:50] [Server thread/WARN]: Mayc moved too quickly! 116.28507096542387,4.0,-211.50018877995285
+[02:10:51] [Server thread/INFO]: Mayc was blown up by Creeper
+[02:16:53] [Server thread/INFO]: LmR2222 has made the advancement [Acquire Hardware]
+[02:17:58] [Server thread/INFO]: Mayc lost connection: Disconnected
+[02:17:58] [Server thread/INFO]: Mayc left the game
+[02:20:34] [Server thread/INFO]: Sudarek lost connection: Disconnected
+[02:20:34] [Server thread/INFO]: Sudarek left the game
+[02:28:34] [Server thread/INFO]: LmR2222 has made the advancement [Sweet Dreams]
+[02:37:28] [Server thread/INFO]: Sudarek[/147.232.182.209:62546] logged in with entity id 44354 at (851.2346488505689, 69.0, 982.5623566934257)
+[02:37:28] [Server thread/INFO]: Sudarek joined the game
+[02:40:11] [Server thread/WARN]: Oak Boat (vehicle of TheHomer) moved wrongly! 0.6912535267977091
+[02:42:39] [Server thread/INFO]: Sudarek lost connection: Disconnected
+[02:42:39] [Server thread/INFO]: Sudarek left the game
+[02:42:51] [Server thread/INFO]: Sudarek[/147.232.182.209:53881] logged in with entity id 45662 at (850.2954200990573, 73.0, 987.405917148221)
+[02:42:51] [Server thread/INFO]: Sudarek joined the game
+[02:49:00] [Server thread/INFO]: Sudarek lost connection: Disconnected
+[02:49:00] [Server thread/INFO]: Sudarek left the game
+[02:51:14] [Server thread/INFO]: LmR2222 has made the advancement [Isn't It Iron Pick]
+[02:56:21] [Server thread/INFO]: Sudarek[/147.232.182.209:52221] logged in with entity id 49109 at (864.5894186832304, 67.0, 981.4454161841599)
+[02:56:21] [Server thread/INFO]: Sudarek joined the game
+[02:57:28] [Server thread/INFO]: TheHomer lost connection: Disconnected
+[02:57:28] [Server thread/INFO]: TheHomer left the game
+[03:01:19] [Server thread/INFO]: Sudarek lost connection: Disconnected
+[03:01:19] [Server thread/INFO]: Sudarek left the game
+[03:02:06] [Server thread/INFO]: Sudarek[/147.232.182.209:64161] logged in with entity id 50348 at (860.8236529694301, 67.0, 978.1240643844611)
+[03:02:06] [Server thread/INFO]: Sudarek joined the game
+[03:14:41] [Server thread/INFO]: Sudarek lost connection: Disconnected
+[03:14:41] [Server thread/INFO]: Sudarek left the game
+[03:16:50] [Server thread/INFO]: Sudarek[/147.232.182.209:62588] logged in with entity id 53306 at (864.1463410376391, 67.0, 980.6353408780053)
+[03:16:50] [Server thread/INFO]: Sudarek joined the game
+[03:19:38] [Server thread/INFO]: Sudarek lost connection: Disconnected
+[03:19:38] [Server thread/INFO]: Sudarek left the game
+[03:20:32] [Server thread/INFO]: Sudarek[/147.232.182.209:57308] logged in with entity id 54205 at (851.3792207202413, 72.0, 985.8528413444791)
+[03:20:32] [Server thread/INFO]: Sudarek joined the game
+[03:22:41] [Server thread/INFO]: KpoJIeBapKa[/192.168.0.1:61133] logged in with entity id 54578 at (716.7571603298906, 66.0, 966.3000000119209)
+[03:22:41] [Server thread/INFO]: KpoJIeBapKa joined the game
+[03:23:32] [Server thread/INFO]: KpoJIeBapKa has made the advancement [Suit Up]
+[03:27:51] [Server thread/INFO]: KpoJIeBapKa drowned
+[03:27:52] [Server thread/WARN]: KpoJIeBapKa moved too quickly! 113.6531710506523,59.785498419297824,-142.73614186590294
+[03:27:59] [Server thread/INFO]: KpoJIeBapKa has made the advancement [Sweet Dreams]
+[03:28:19] [Server thread/INFO]: Sudarek lost connection: Disconnected
+[03:28:19] [Server thread/INFO]: Sudarek left the game
+[03:28:22] [Server thread/INFO]: Sudarek[/147.232.182.209:54729] logged in with entity id 56717 at (895.3929332143393, 84.0, 1022.5247121827908)
+[03:28:22] [Server thread/INFO]: Sudarek joined the game
+[03:29:56] [Server thread/INFO]: KpoJIeBapKa has made the advancement [Ol' Betsy]
+[03:30:01] [Server thread/INFO]: KpoJIeBapKa has made the advancement [Take Aim]
+[03:33:06] [Server thread/INFO]: KpoJIeBapKa has made the advancement [What a Deal!]
+[03:35:19] [Server thread/INFO]: Sudarek lost connection: Disconnected
+[03:35:19] [Server thread/INFO]: Sudarek left the game
+[03:36:25] [Server thread/INFO]: Sudarek[/147.232.182.209:52551] logged in with entity id 59856 at (896.3131205302861, 63.0, 1016.2157788597467)
+[03:36:25] [Server thread/INFO]: Sudarek joined the game
+[03:38:54] [Server thread/INFO]: KpoJIeBapKa was slain by Zombie
+[03:38:55] [Server thread/WARN]: KpoJIeBapKa moved too quickly! -102.60961414587871,55.0,-358.80000001192093
+[03:38:55] [Server thread/WARN]: KpoJIeBapKa moved too quickly! -102.60961414587871,55.0,-358.80000001192093
+[03:38:55] [Server thread/WARN]: KpoJIeBapKa moved too quickly! -102.60961414587871,55.0,-358.80000001192093
+[03:38:55] [Server thread/WARN]: KpoJIeBapKa moved too quickly! -102.60961414587871,55.0,-358.80000001192093
+[03:38:55] [Server thread/WARN]: KpoJIeBapKa moved too quickly! -102.60961414587871,55.0,-358.80000001192093
+[03:38:55] [Server thread/WARN]: KpoJIeBapKa moved too quickly! -102.60961414587871,55.0,-358.80000001192093
+[03:41:53] [Server thread/INFO]: Sudarek has made the advancement [Sweet Dreams]
+[03:41:54] [Server thread/INFO]: Villager cmk['Nitwit'/61199, l='ServerLevel[world]', x=799.30, y=123.50, z=1343.87] died, message: 'Nitwit was slain by Zombie'
+[03:41:54] [Server thread/INFO]: KpoJIeBapKa lost connection: Disconnected
+[03:41:54] [Server thread/INFO]: KpoJIeBapKa left the game
+[03:42:02] [Server thread/INFO]: KpoJIeBapKa[/192.168.0.1:57609] logged in with entity id 62356 at (720.3000000119209, 72.0, 1404.4573119804024)
+[03:42:02] [Server thread/INFO]: KpoJIeBapKa joined the game
+[03:44:46] [Server thread/INFO]: KpoJIeBapKa has made the advancement [Sneak 100]
+[03:44:50] [Server thread/INFO]: KpoJIeBapKa has completed the challenge [It Spreads]
+[03:46:38] [Server thread/INFO]: KpoJIeBapKa has made the advancement [Diamonds!]
+[03:51:48] [Server thread/INFO]: KpoJIeBapKa has made the advancement [Minecraft: Trial(s) Edition]
+[03:52:02] [Server thread/INFO]: LmR2222 fell from a high place
+[03:53:29] [Server thread/INFO]: KpoJIeBapKa was shot by Bogged
+[03:53:30] [Server thread/WARN]: KpoJIeBapKa moved too quickly! 194.2172158789042,81.0,-395.2484221441066
+[03:53:30] [Server thread/WARN]: KpoJIeBapKa moved too quickly! 194.2172158789042,81.0,-395.2484221441066
+[03:53:30] [Server thread/WARN]: KpoJIeBapKa moved too quickly! 194.2172158789042,81.0,-395.2484221441066
+[03:53:30] [Server thread/WARN]: KpoJIeBapKa moved too quickly! 194.2172158789042,81.0,-395.2484221441066
+[03:53:30] [Server thread/WARN]: KpoJIeBapKa moved too quickly! 194.2172158789042,81.0,-395.2484221441066
+[03:53:30] [Server thread/WARN]: KpoJIeBapKa moved too quickly! 194.2172158789042,81.0,-395.2484221441066
+[04:08:03] [Server thread/INFO]: Sudarek lost connection: Disconnected
+[04:08:03] [Server thread/INFO]: Sudarek left the game
+[04:08:05] [Server thread/INFO]: Sudarek[/147.232.182.209:54804] logged in with entity id 71125 at (860.280516426191, 66.0, 976.1061332473321)
+[04:08:05] [Server thread/INFO]: Sudarek joined the game
+[04:08:20] [Server thread/INFO]: Sudarek lost connection: Disconnected
+[04:08:20] [Server thread/INFO]: Sudarek left the game
+[04:13:55] [Server thread/INFO]: KpoJIeBapKa drowned
+[04:14:04] [Server thread/INFO]: LmR2222 lost connection: Disconnected
+[04:14:04] [Server thread/INFO]: LmR2222 left the game
+[04:16:47] [Server thread/INFO]: KpoJIeBapKa lost connection: Disconnected
+[04:16:47] [Server thread/INFO]: KpoJIeBapKa left the game
