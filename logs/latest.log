@@ -1,164 +1,35 @@
-[00:07:57] [Server thread/INFO]: Sudarek[/147.232.182.209:49917] logged in with entity id 832 at (866.3444430803522, 66.0, 980.2443043507174)
-[00:07:57] [Server thread/INFO]: Sudarek joined the game
-[00:13:19] [Server thread/INFO]: [Not Secure] <Sudarek> 930 800
-[00:13:48] [Server thread/INFO]: TheHomer[/192.168.0.1:50203] logged in with entity id 3027 at (65.30000001192093, 13.0, 57.30000001192093)
-[00:13:48] [Server thread/INFO]: TheHomer joined the game
-[00:14:09] [Server thread/INFO]: Sudarek has made the advancement [Best Friends Forever]
-[00:15:51] [Server thread/INFO]: TheHomer tried to swim in lava
-[00:21:20] [Server thread/INFO]: TheHomer has made the advancement [Not Today, Thank You]
-[00:24:19] [Server thread/INFO]: TheHomer tried to swim in lava
-[00:24:20] [Server thread/WARN]: TheHomer moved too quickly! 85.40436519724165,118.0,-139.56856770923957
-[00:24:20] [Server thread/WARN]: TheHomer moved too quickly! 85.40436519724165,118.0,-139.56856770923957
-[00:24:20] [Server thread/WARN]: TheHomer moved too quickly! 85.40436519724165,118.0,-139.56856770923957
-[00:24:20] [Server thread/WARN]: TheHomer moved too quickly! 85.40436519724165,118.0,-139.56856770923957
-[00:24:20] [Server thread/WARN]: TheHomer moved too quickly! 85.40436519724165,118.0,-139.56856770923957
-[00:24:20] [Server thread/WARN]: TheHomer moved too quickly! 85.40436519724165,118.0,-139.56856770923957
-[00:24:20] [Server thread/WARN]: TheHomer moved too quickly! 85.40436519724165,118.0,-139.56856770923957
-[00:27:44] [Server thread/INFO]: TheHomer lost connection: Disconnected
-[00:27:44] [Server thread/INFO]: TheHomer left the game
-[00:27:54] [Server thread/INFO]: TheHomer[/192.168.0.1:50228] logged in with entity id 11533 at (231.63138120389885, 36.0, 67.88130405156785)
-[00:27:54] [Server thread/INFO]: TheHomer joined the game
-[00:39:20] [Server thread/INFO]: TheHomer has made the advancement [Those Were the Days]
-[00:40:04] [Server thread/INFO]: TheHomer has made the advancement [War Pigs]
-[00:41:53] [Server thread/INFO]: Sudarek has made the advancement [The Parrots and the Bats]
-[00:42:09] [Server thread/INFO]: KpoJIeBapKa[/192.168.0.1:6321] logged in with entity id 17504 at (794.6854653818211, 64.0, 947.7140019473417)
-[00:42:09] [Server thread/INFO]: KpoJIeBapKa joined the game
-[00:42:28] [Server thread/INFO]: TheHomer fell from a high place
-[00:42:33] [Server thread/INFO]: LmR2222[/92.177.185.219:53277] logged in with entity id 18145 at (915.0118900264522, 84.0, 1036.3138397574567)
-[00:42:33] [Server thread/INFO]: LmR2222 joined the game
-[00:43:33] [Server thread/INFO]: thelemaua[/46.219.247.81:40172] logged in with entity id 18699 at (715.2520098311539, 65.0, 968.4308365674659)
-[00:43:33] [Server thread/INFO]: thelemaua joined the game
-[00:44:39] [Server thread/INFO]: TheHomer has completed the challenge [Cover Me in Debris]
-[00:45:39] [Server thread/INFO]: thelemaua has made the advancement [Suit Up]
-[00:45:40] [Server thread/INFO]: thelemaua has made the advancement [Isn't It Iron Pick]
-[00:46:33] [Server thread/INFO]: LmR2222 has made the advancement [Cover Me with Diamonds]
-[00:46:33] [Server thread/INFO]: LmR2222 has made the advancement [Suit Up]
-[00:46:44] [Server thread/WARN]: Oak Boat (vehicle of TheHomer) moved wrongly! 0.5442048870027065
-[00:49:27] [Server thread/INFO]: KpoJIeBapKa has made the advancement [A Seedy Place]
-[00:49:54] [Server thread/INFO]: Sudarek has made the advancement [Voluntary Exile]
-[00:51:25] [Server thread/INFO]: KpoJIeBapKa tried to swim in lava
-[00:54:32] [Server thread/INFO]: KpoJIeBapKa tried to swim in lava
-[00:56:45] [Server thread/INFO]: KpoJIeBapKa lost connection: Disconnected
-[00:56:45] [Server thread/INFO]: KpoJIeBapKa left the game
-[00:57:02] [Server thread/INFO]: LmR2222 lost connection: Disconnected
-[00:57:02] [Server thread/INFO]: LmR2222 left the game
-[00:57:09] [Server thread/INFO]: LmR2222[/92.177.185.219:53857] logged in with entity id 26172 at (1082.8206332324642, -40.0, 1039.4412579545271)
-[00:57:09] [Server thread/INFO]: LmR2222 joined the game
-[00:57:29] [Server thread/INFO]: KpoJIeBapKa[/192.168.0.1:56779] logged in with entity id 26496 at (777.9400005037546, 65.0, 981.3921408784985)
-[00:57:29] [Server thread/INFO]: KpoJIeBapKa joined the game
-[00:57:44] [Server thread/INFO]: Gamerule mobGriefing is now set to: false
-[00:58:10] [Server thread/INFO]: LmR2222 lost connection: Disconnected
-[00:58:10] [Server thread/INFO]: LmR2222 left the game
-[00:58:27] [Server thread/INFO]: LmR2222[/92.177.185.219:53916] logged in with entity id 26846 at (1060.053842277876, -49.0, 1059.6771958165748)
-[00:58:27] [Server thread/INFO]: LmR2222 joined the game
-[01:01:20] [Server thread/INFO]: Sudarek lost connection: Disconnected
-[01:01:20] [Server thread/INFO]: Sudarek left the game
-[01:02:21] [Server thread/INFO]: [Not Secure] <KpoJIeBapKa> 777 1322 121
-[01:02:36] [Server thread/INFO]: [Not Secure] <TheHomer> .
-[01:02:44] [Server thread/INFO]: thelemaua fell from a high place
-[01:02:45] [Server thread/WARN]: thelemaua moved too quickly! 1.9824906092013634,5.0,-13.969918430835378
-[01:05:20] [Server thread/INFO]: Sudarek[/147.232.182.209:56537] logged in with entity id 30710 at (840.4833932780174, 71.0, 992.2330887019522)
-[01:05:20] [Server thread/INFO]: Sudarek joined the game
-[01:05:26] [Server thread/INFO]: [Not Secure] <thelemaua> vyt
-[01:05:36] [Server thread/INFO]: [Not Secure] <thelemaua> мне нужен верстак
-[01:05:42] [Server thread/INFO]: [Not Secure] <thelemaua> арсен
-[01:05:47] [Server thread/INFO]: [Not Secure] <KpoJIeBapKa> ща
-[01:05:47] [Server thread/INFO]: [Not Secure] <thelemaua> мне нужен верстак
-[01:06:00] [Server thread/INFO]: [Not Secure] <thelemaua> яделаю уже сама стекло
-[01:06:26] [Server thread/INFO]: Sudarek lost connection: Disconnected
-[01:06:26] [Server thread/INFO]: Sudarek left the game
-[01:06:27] [Server thread/INFO]: [Not Secure] <thelemaua> лопата
-[01:06:38] [Server thread/INFO]: [Not Secure] <thelemaua> ще щшото
-[01:06:49] [Server thread/INFO]: [Not Secure] <thelemaua> бля
-[01:06:54] [Server thread/INFO]: [Not Secure] <thelemaua> не помнбю
-[01:07:01] [Server thread/INFO]: [Not Secure] <KpoJIeBapKa> ок
-[01:07:04] [Server thread/INFO]: TheHomer has made the advancement [Take Aim]
-[01:07:21] [Server thread/INFO]: TheHomer has made the advancement [Ol' Betsy]
-[01:07:44] [Server thread/INFO]: KpoJIeBapKa was shot by TheHomer
-[01:08:38] [Server thread/INFO]: KpoJIeBapKa has made the advancement [Enchanter]
-[01:11:01] [Server thread/INFO]: Sudarek[/147.232.182.209:53043] logged in with entity id 33123 at (839.5979819155021, 71.0, 988.2912593281997)
-[01:11:01] [Server thread/INFO]: Sudarek joined the game
-[01:11:43] [Server thread/INFO]: [Not Secure] <thelemaua> а
-[01:11:47] [Server thread/INFO]: [Not Secure] <thelemaua> сундукиэ
-[01:11:54] [Server thread/INFO]: [Not Secure] <thelemaua> почему не спим?
-[01:12:10] [Server thread/INFO]: [Not Secure] <thelemaua> арсен
-[01:12:28] [Server thread/INFO]: [Not Secure] <KpoJIeBapKa> сплю
-[01:12:38] [Server thread/INFO]: LmR2222 lost connection: Disconnected
-[01:12:38] [Server thread/INFO]: LmR2222 left the game
-[01:12:45] [Server thread/INFO]: LmR2222[/92.177.185.219:54545] logged in with entity id 33744 at (1050.0627018927391, -46.0, 1028.6708520565396)
-[01:12:45] [Server thread/INFO]: LmR2222 joined the game
-[01:12:45] [Server thread/INFO]: LmR2222 lost connection: Disconnected
-[01:12:45] [Server thread/INFO]: LmR2222 left the game
-[01:12:46] [Server thread/INFO]: LmR2222[/92.177.185.219:54547] logged in with entity id 33875 at (1050.0627018927391, -46.0, 1028.6708520565396)
-[01:12:46] [Server thread/INFO]: LmR2222 joined the game
-[01:12:54] [Server thread/INFO]: [Not Secure] <thelemaua> сундуки
-[01:13:32] [Server thread/INFO]: [Not Secure] <thelemaua> лодка
-[01:13:41] [Server thread/INFO]: [Not Secure] <thelemaua> кость если есть
-[01:13:50] [Server thread/INFO]: [Not Secure] <thelemaua> посмотри на мою дверь и я сдлала ступеньки
-[01:14:09] [Server thread/INFO]: [Not Secure] <thelemaua> фонарь мне дай
-[01:14:12] [Server thread/INFO]: [Not Secure] <thelemaua> фонари
-[01:14:20] [Server thread/INFO]: [Not Secure] <thelemaua> мне лень искать как их делать
-[01:25:10] [Server thread/INFO]: KpoJIeBapKa lost connection: Disconnected
-[01:25:10] [Server thread/INFO]: KpoJIeBapKa left the game
-[01:25:11] [Server thread/INFO]: LmR2222 lost connection: Disconnected
-[01:25:11] [Server thread/INFO]: LmR2222 left the game
-[01:25:16] [Server thread/INFO]: LmR2222[/92.177.185.219:55012] logged in with entity id 39692 at (1095.1596967552546, -44.0, 1045.5105523822913)
-[01:25:16] [Server thread/INFO]: LmR2222 joined the game
-[01:25:24] [Server thread/INFO]: [Not Secure] <TheHomer> ухй
-[01:26:48] [Server thread/INFO]: KpoJIeBapKa[/192.168.0.1:9078] logged in with entity id 40704 at (1146.966602412019, 118.0, 1376.8312350228261)
-[01:26:48] [Server thread/INFO]: KpoJIeBapKa joined the game
-[01:27:31] [Server thread/INFO]: thelemaua drowned
-[01:27:33] [Server thread/WARN]: thelemaua moved too quickly! 69.34729314021342,3.3544874737467367,-86.5616423876902
-[01:32:23] [Server thread/INFO]: KpoJIeBapKa drowned
-[01:32:25] [Server thread/WARN]: KpoJIeBapKa moved too quickly! -183.80000001192093,29.0,-321.80000001192093
-[01:32:25] [Server thread/WARN]: KpoJIeBapKa moved too quickly! -183.80000001192093,29.0,-321.80000001192093
-[01:32:25] [Server thread/WARN]: KpoJIeBapKa moved too quickly! -183.80000001192093,29.0,-321.80000001192093
-[01:32:25] [Server thread/WARN]: KpoJIeBapKa moved too quickly! -183.80000001192093,29.0,-321.80000001192093
-[01:32:25] [Server thread/WARN]: KpoJIeBapKa moved too quickly! -183.80000001192093,29.0,-321.80000001192093
-[01:32:25] [Server thread/WARN]: KpoJIeBapKa moved too quickly! -183.80000001192093,29.0,-321.80000001192093
-[01:34:59] [Server thread/INFO]: Sudarek has made the advancement [A Seedy Place]
-[01:36:45] [Server thread/INFO]: KpoJIeBapKa lost connection: Disconnected
-[01:36:45] [Server thread/INFO]: KpoJIeBapKa left the game
-[01:36:47] [Server thread/INFO]: TheHomer lost connection: Disconnected
-[01:36:47] [Server thread/INFO]: TheHomer left the game
-[01:36:47] [Server thread/INFO]: Sudarek lost connection: Disconnected
-[01:36:47] [Server thread/INFO]: Sudarek left the game
-[01:36:50] [Server thread/INFO]: LmR2222 lost connection: Disconnected
-[01:36:50] [Server thread/INFO]: LmR2222 left the game
-[01:36:54] [Server thread/INFO]: LmR2222[/92.177.185.219:55479] logged in with entity id 47112 at (866.2505100585797, 64.0, 1030.3430726578652)
-[01:36:54] [Server thread/INFO]: LmR2222 joined the game
-[01:36:56] [Server thread/INFO]: TheHomer[/192.168.0.1:50460] logged in with entity id 47241 at (228.739213642198, 50.0, -251.92070529701246)
-[01:36:56] [Server thread/INFO]: TheHomer joined the game
-[01:36:57] [Server thread/INFO]: Sudarek[/147.232.182.209:55893] logged in with entity id 47374 at (887.4826869768049, 63.0, 863.7191273591054)
-[01:36:57] [Server thread/INFO]: Sudarek joined the game
-[01:37:01] [Server thread/INFO]: KpoJIeBapKa[/192.168.0.1:9509] logged in with entity id 47537 at (93.90154103862234, 60.0, 173.80520100711672)
-[01:37:01] [Server thread/INFO]: KpoJIeBapKa joined the game
-[01:37:45] [Server thread/INFO]: KpoJIeBapKa has made the advancement [Who is Cutting Onions?]
-[01:38:13] [Server thread/INFO]: thelemaua has made the advancement [Stone Age]
-[01:38:28] [Server thread/INFO]: KpoJIeBapKa tried to swim in lava
-[01:42:58] [Server thread/INFO]: TheHomer has completed the challenge [Return to Sender]
-[01:43:50] [Server thread/INFO]: thelemaua fell from a high place
-[01:47:05] [Server thread/INFO]: TheHomer was doomed to fall by Hoglin
-[01:49:03] [Server thread/INFO]: LmR2222 has made the advancement [Ice Bucket Challenge]
-[01:49:29] [Server thread/INFO]: thelemaua drowned
-[01:49:32] [Server thread/WARN]: thelemaua moved too quickly! 259.3375062565999,3.655804034880539,-32.8648266527
-[01:49:32] [Server thread/WARN]: thelemaua moved too quickly! 259.3375062565999,3.655804034880539,-32.8648266527
-[01:49:32] [Server thread/WARN]: thelemaua moved too quickly! 259.3375062565999,3.655804034880539,-32.8648266527
-[01:49:32] [Server thread/WARN]: thelemaua moved too quickly! 259.3375062565999,3.655804034880539,-32.8648266527
-[01:49:32] [Server thread/WARN]: thelemaua moved too quickly! 259.3375062565999,3.655804034880539,-32.8648266527
-[01:51:14] [Server thread/INFO]: thelemaua has made the advancement [We Need to Go Deeper]
-[01:59:46] [Server thread/INFO]: TheHomer lost connection: Disconnected
-[01:59:46] [Server thread/INFO]: TheHomer left the game
-[02:01:16] [Server thread/INFO]: thelemaua lost connection: Disconnected
-[02:01:16] [Server thread/INFO]: thelemaua left the game
-[02:01:55] [Server thread/INFO]: KpoJIeBapKa was slain by Cave Spider
-[02:02:50] [Server thread/INFO]: KpoJIeBapKa lost connection: Disconnected
-[02:02:50] [Server thread/INFO]: KpoJIeBapKa left the game
-[02:17:13] [Server thread/INFO]: TheHomer[/192.168.0.1:11214] logged in with entity id 67147 at (921.1442830274169, 63.0, 1022.9644722019073)
-[02:17:13] [Server thread/INFO]: TheHomer joined the game
-[02:25:51] [Server thread/INFO]: LmR2222 lost connection: Disconnected
-[02:25:51] [Server thread/INFO]: LmR2222 left the game
-[02:26:42] [Server thread/INFO]: Sudarek lost connection: Disconnected
-[02:26:42] [Server thread/INFO]: Sudarek left the game
-[02:30:29] [Server thread/INFO]: TheHomer lost connection: Disconnected
-[02:30:29] [Server thread/INFO]: TheHomer left the game
+[22:11:04] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[22:11:05] [ServerMain/INFO]: Loaded 1290 recipes
+[22:11:05] [ServerMain/INFO]: Loaded 1399 advancements
+[22:11:05] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[22:11:05] [Server thread/INFO]: Loading properties
+[22:11:05] [Server thread/INFO]: Default game type: SURVIVAL
+[22:11:05] [Server thread/INFO]: Generating keypair
+[22:11:06] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:11:06] [Server thread/INFO]: Using default channel type
+[22:11:06] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:11:06] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:11:06] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:11:06] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:11:06] [Server thread/INFO]: Preparing level "world"
+[22:11:07] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:11:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[22:11:07] [Server thread/INFO]: Time elapsed: 302 ms
+[22:11:07] [Server thread/INFO]: Done (1.244s)! For help, type "help"
+[22:11:22] [Server thread/INFO]: LmR2222[/92.177.185.219:51278] logged in with entity id 7 at (952.6829539213369, 0.0, 1075.81590340818)
+[22:11:22] [Server thread/INFO]: LmR2222 joined the game
+[22:14:15] [Server thread/INFO]: Kicked LmR2222: Kicked by an operator
+[22:14:15] [Server thread/INFO]: LmR2222 lost connection: Kicked by an operator
+[22:14:15] [Server thread/INFO]: LmR2222 left the game
+[22:14:43] [Server thread/INFO]: LmR2222[/92.177.185.219:51400] logged in with entity id 619 at (954.8511654156983, 0.0, 1051.3778587956963)
+[22:14:43] [Server thread/INFO]: LmR2222 joined the game
+[22:16:33] [Server thread/INFO]: TheHomer[/192.168.0.1:9774] logged in with entity id 1237 at (759.4753096533916, 64.0, 896.7168686301388)
+[22:16:33] [Server thread/INFO]: TheHomer joined the game
+[22:16:45] [Server thread/INFO]: [Not Secure] <LmR2222> о матюха
+[22:17:08] [Server thread/INFO]: [Not Secure] <TheHomer> войс
+[22:18:21] [Server thread/INFO]: LmR2222 lost connection: Disconnected
+[22:18:21] [Server thread/INFO]: LmR2222 left the game
+[22:18:25] [Server thread/INFO]: LmR2222[/92.177.185.219:51545] logged in with entity id 2051 at (931.9190088155705, -3.0, 1101.8088633398743)
+[22:18:25] [Server thread/INFO]: LmR2222 joined the game
+[22:24:07] [Server thread/INFO]: TheHomer has made the advancement [Best Friends Forever]
+[22:25:59] [Server thread/INFO]: TheHomer fell from a high place
