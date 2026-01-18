@@ -2679,13 +2679,19 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/sandstone_stairs": {
+  "minecraft:recipes/decorations/black_bed": {
     "criteria": {
-      "has_cut_sandstone": "2026-01-18 22:36:56 +0200"
+      "has_black_wool": "2026-01-18 22:21:45 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/black_bed": {
+  "minecraft:recipes/decorations/black_carpet": {
+    "criteria": {
+      "has_black_wool": "2026-01-18 22:21:45 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_banner": {
     "criteria": {
       "has_black_wool": "2026-01-18 22:21:45 +0200"
     },
@@ -2709,21 +2715,9 @@
     },
     "done": false
   },
-  "minecraft:recipes/decorations/black_carpet": {
+  "minecraft:recipes/building_blocks/sandstone_stairs": {
     "criteria": {
-      "has_black_wool": "2026-01-18 22:21:45 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/emerald_block": {
-    "criteria": {
-      "has_emerald": "2026-01-18 22:37:13 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/black_banner": {
-    "criteria": {
-      "has_black_wool": "2026-01-18 22:21:45 +0200"
+      "has_cut_sandstone": "2026-01-18 22:36:56 +0200"
     },
     "done": true
   },
@@ -2736,6 +2730,12 @@
   "minecraft:recipes/building_blocks/cut_sandstone_slab_from_cut_sandstone_stonecutting": {
     "criteria": {
       "has_cut_sandstone": "2026-01-18 22:36:56 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2026-01-18 22:37:13 +0200"
     },
     "done": true
   },
