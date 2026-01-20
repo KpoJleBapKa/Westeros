@@ -2365,15 +2365,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/bowl": {
-    "criteria": {
-      "has_the_recipe": "2026-01-19 19:03:19 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/composter": {
     "criteria": {
       "has_wood_slab": "2026-01-19 18:50:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_the_recipe": "2026-01-19 19:03:19 +0200"
     },
     "done": true
   },
