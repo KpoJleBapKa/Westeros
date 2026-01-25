@@ -1,57 +1,111 @@
-[14:44:40] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[14:44:41] [ServerMain/INFO]: Loaded 1290 recipes
-[14:44:41] [ServerMain/INFO]: Loaded 1399 advancements
-[14:44:41] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[14:44:41] [Server thread/INFO]: Loading properties
-[14:44:41] [Server thread/INFO]: Default game type: SURVIVAL
-[14:44:41] [Server thread/INFO]: Generating keypair
-[14:44:41] [Server thread/INFO]: Starting Minecraft server on *:25565
-[14:44:41] [Server thread/INFO]: Using default channel type
-[14:44:41] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[14:44:41] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[14:44:41] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[14:44:41] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[14:44:41] [Server thread/INFO]: Preparing level "world"
-[14:44:42] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[14:44:42] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[14:44:42] [Server thread/INFO]: Time elapsed: 264 ms
-[14:44:42] [Server thread/INFO]: Done (1.067s)! For help, type "help"
-[14:44:45] [Yggdrasil Key Fetcher/ERROR]: Failed to request yggdrasil public key
-com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/publickeys due to Connect timed out
-	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:108) ~[authlib-6.0.54.jar:?]
-	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:57) ~[authlib-6.0.54.jar:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.fetch(YggdrasilServicesKeyInfo.java:114) ~[authlib-6.0.54.jar:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo$1.run(YggdrasilServicesKeyInfo.java:89) ~[authlib-6.0.54.jar:?]
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+[00:01:43] [Server thread/INFO]: KpoJIeBapKa[/192.168.0.1:15196] logged in with entity id 16397 at (792.6666676540844, 64.5625, 946.8168020341348)
+[00:01:43] [Server thread/INFO]: KpoJIeBapKa joined the game
+[00:08:16] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=-547, y=10, z=-77} jd{x=-547, y=11, z=-78}
+[00:08:16] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=-547, y=10, z=-77} jd{x=-547, y=11, z=-78}
+[00:08:16] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=-547, y=10, z=-77} jd{x=-547, y=11, z=-78}
+[00:08:16] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=-547, y=10, z=-77} jd{x=-547, y=11, z=-78}
+[00:08:16] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=-547, y=10, z=-77} jd{x=-547, y=11, z=-78}
+[00:08:17] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=-547, y=11, z=-76} jd{x=-547, y=8, z=-76}
+[00:08:17] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=-547, y=11, z=-76} jd{x=-547, y=8, z=-76}
+[00:08:19] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=-547, y=7, z=-73} jd{x=-547, y=4, z=-73}
+[00:09:14] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=-548, y=13, z=-51} jd{x=-548, y=12, z=-52}
+[00:09:14] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=-548, y=13, z=-51} jd{x=-548, y=12, z=-52}
+[00:09:14] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=-548, y=13, z=-51} jd{x=-548, y=12, z=-52}
+[00:09:35] [Server thread/INFO]: KpoJIeBapKa has made the advancement [Hidden in the Depths]
+[00:13:32] [Server thread/INFO]: KpoJIeBapKa tried to swim in lava
+[00:19:20] [Server thread/WARN]: KpoJIeBapKa moved wrongly!
+[00:19:56] [Netty Server IO #21/ERROR]: Error sending packet clientbound/minecraft:disconnect
+io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
+	at yw.a(SourceFile:47) ~[server-1.21.1.jar:?]
+	at yw.encode(SourceFile:14) ~[server-1.21.1.jar:?]
+	at we.a(SourceFile:26) ~[server-1.21.1.jar:?]
+	at we.encode(SourceFile:12) ~[server-1.21.1.jar:?]
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at vt$2.write(SourceFile:530) ~[server-1.21.1.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:940) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:966) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:934) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1025) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:306) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at vt.c(SourceFile:350) ~[server-1.21.1.jar:?]
+	at vt.b(SourceFile:343) ~[server-1.21.1.jar:?]
+	at vt.a(SourceFile:325) ~[server-1.21.1.jar:?]
+	at vt.a(SourceFile:319) ~[server-1.21.1.jar:?]
+	at vt.exceptionCaught(SourceFile:170) ~[server-1.21.1.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1377) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:907) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.handleReadException(AbstractNioByteChannel.java:125) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:177) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
 	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-Caused by: java.net.SocketTimeoutException: Connect timed out
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546) ~[?:?]
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[?:?]
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
-	at java.base/java.net.Socket.connect(Socket.java:751) ~[?:?]
-	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[?:?]
-	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[?:?]
-	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531) ~[?:?]
-	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377) ~[?:?]
-	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1298) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1139) ~[?:?]
-	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1691) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1615) ~[?:?]
-	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
-	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:84) ~[authlib-6.0.54.jar:?]
-	... 9 more
-[14:45:24] [Server thread/INFO]: KpoJIeBapKa[/127.0.0.1:60158] logged in with entity id 19 at (780.3735957828756, 64.0, 946.1318460445498)
-[14:45:24] [Server thread/INFO]: KpoJIeBapKa joined the game
-[15:48:57] [Server thread/INFO]: KpoJIeBapKa tried to swim in lava
-[15:49:00] [Server thread/WARN]: KpoJIeBapKa moved too quickly! 31.479941005954856,16.0,11.42997719441405
-[15:54:22] [Server thread/INFO]: KpoJIeBapKa lost connection: Disconnected
-[15:54:22] [Server thread/INFO]: KpoJIeBapKa left the game
+[00:21:09] [Server thread/INFO]: KpoJIeBapKa has completed the challenge [Return to Sender]
+[00:22:24] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=-364, y=91, z=330} jd{x=-363, y=90, z=330}
+[00:22:24] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=-364, y=91, z=330} jd{x=-363, y=90, z=330}
+[00:22:24] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=-364, y=91, z=330} jd{x=-363, y=90, z=330}
+[00:22:24] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=-364, y=91, z=330} jd{x=-363, y=90, z=330}
+[00:22:24] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=-364, y=91, z=330} jd{x=-363, y=90, z=330}
+[00:22:25] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=-364, y=91, z=330} jd{x=-363, y=90, z=330}
+[00:22:31] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=-369, y=89, z=326} jd{x=-368, y=89, z=327}
+[00:22:31] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=-369, y=89, z=326} jd{x=-368, y=89, z=327}
+[00:22:31] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=-369, y=89, z=326} jd{x=-368, y=89, z=327}
+[00:22:31] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=-369, y=89, z=326} jd{x=-368, y=89, z=327}
+[00:22:36] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=-382, y=87, z=320} jd{x=-383, y=86, z=319}
+[00:22:36] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=-382, y=87, z=320} jd{x=-383, y=86, z=319}
+[00:22:36] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=-382, y=87, z=320} jd{x=-383, y=86, z=319}
+[00:22:38] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=-386, y=86, z=318} jd{x=-387, y=85, z=317}
+[00:22:38] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=-386, y=86, z=318} jd{x=-387, y=85, z=317}
+[00:22:38] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=-386, y=86, z=318} jd{x=-387, y=85, z=317}
+[00:22:41] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=-394, y=84, z=314} jd{x=-395, y=83, z=313}
+[00:22:41] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=-394, y=84, z=314} jd{x=-395, y=83, z=313}
+[00:22:41] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=-394, y=84, z=314} jd{x=-395, y=83, z=313}
+[00:22:48] [Server thread/INFO]: KpoJIeBapKa tried to swim in lava
+[00:25:30] [Server thread/INFO]: KpoJIeBapKa has completed the challenge [Hot Tourist Destinations]
+[00:28:16] [Server thread/INFO]: KpoJIeBapKa has made the advancement [Those Were the Days]
+[00:29:22] [Server thread/INFO]: KpoJIeBapKa was slain by Piglin Brute
+[00:38:36] [Server thread/INFO]: KpoJIeBapKa has made the advancement [War Pigs]
+[00:41:13] [Server thread/INFO]: KpoJIeBapKa tried to swim in lava
+[00:43:36] [Server thread/INFO]: TheHomer[/192.168.0.1:16679] logged in with entity id 32055 at (835.9950048119448, 74.0, 991.418563993926)
+[00:43:36] [Server thread/INFO]: TheHomer joined the game
+[00:49:05] [Server thread/INFO]: TheHomer lost connection: Disconnected
+[00:49:05] [Server thread/INFO]: TheHomer left the game
+[01:14:17] [Server thread/INFO]: [KpoJIeBapKa: Gamerule mobGriefing is now set to: true]
+[01:14:44] [Server thread/INFO]: TheHomer[/192.168.0.1:18841] logged in with entity id 36926 at (787.1347162265142, 64.0, 937.1975576554884)
+[01:14:44] [Server thread/INFO]: TheHomer joined the game
+[01:21:49] [Server thread/INFO]: TheHomer lost connection: Disconnected
+[01:21:49] [Server thread/INFO]: TheHomer left the game
+[01:22:06] [Server thread/INFO]: KpoJIeBapKa was slain by Zombie
+[01:30:42] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=776, y=64, z=953} jd{x=776, y=64, z=952}
+[01:55:18] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=768, y=65, z=929} jd{x=768, y=63, z=927}
+[01:55:18] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=768, y=65, z=929} jd{x=768, y=63, z=927}
+[03:17:06] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=766, y=90, z=933} jd{x=766, y=90, z=935}
+[03:25:14] [Server thread/INFO]: [KpoJIeBapKa: The difficulty has been set to Hard]
+[03:26:19] [Server thread/INFO]: KpoJIeBapKa lost connection: Disconnected
+[03:26:19] [Server thread/INFO]: KpoJIeBapKa left the game
+[03:26:24] [Server thread/INFO]: KpoJIeBapKa[/192.168.0.1:21831] logged in with entity id 71645 at (772.8408252367153, 64.0, 929.0850797921826)
+[03:26:24] [Server thread/INFO]: KpoJIeBapKa joined the game
+[03:33:04] [Server thread/INFO]: KpoJIeBapKa fell from a high place
+[03:33:05] [Server thread/WARN]: KpoJIeBapKa moved too quickly! 25.384716865776454,-32.0,23.02240888897586
+[03:33:05] [Server thread/WARN]: KpoJIeBapKa moved too quickly! 25.384716865776454,-32.0,23.02240888897586
+[03:35:54] [Server thread/INFO]: KpoJIeBapKa fell from a high place
+[03:54:13] [Server thread/INFO]: KpoJIeBapKa was doomed to fall
+[03:54:15] [Server thread/WARN]: KpoJIeBapKa moved too quickly! 21.56701425360859,0.0,30.08174301191991
+[03:54:15] [Server thread/WARN]: KpoJIeBapKa moved too quickly! 21.56701425360859,0.0,30.08174301191991
+[03:54:33] [Server thread/INFO]: KpoJIeBapKa lost connection: Disconnected
+[03:54:33] [Server thread/INFO]: KpoJIeBapKa left the game
