@@ -4405,5 +4405,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2026-01-26 16:41:11 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2026-01-26 16:41:11 +0200"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }
