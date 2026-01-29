@@ -1,136 +1,75 @@
-[00:04:39] [Server thread/INFO]: aceLmR has made the advancement [Fishy Business]
-[00:14:53] [Server thread/INFO]: thelemaua has made the advancement [The Parrots and the Bats]
-[00:16:14] [Server thread/WARN]: Acacia Boat (vehicle of aceLmR) moved wrongly! 0.3189203667826632
-[00:39:43] [Netty Server IO #14/ERROR]: Error sending packet clientbound/minecraft:disconnect
-io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
-	at yw.a(SourceFile:47) ~[server-1.21.1.jar:?]
-	at yw.encode(SourceFile:14) ~[server-1.21.1.jar:?]
-	at we.a(SourceFile:26) ~[server-1.21.1.jar:?]
-	at we.encode(SourceFile:12) ~[server-1.21.1.jar:?]
-	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at vt$2.write(SourceFile:530) ~[server-1.21.1.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:940) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:966) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:934) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1025) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:306) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at vt.c(SourceFile:350) ~[server-1.21.1.jar:?]
-	at vt.b(SourceFile:343) ~[server-1.21.1.jar:?]
-	at vt.a(SourceFile:325) ~[server-1.21.1.jar:?]
-	at vt.a(SourceFile:319) ~[server-1.21.1.jar:?]
-	at vt.exceptionCaught(SourceFile:170) ~[server-1.21.1.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1377) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:907) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.handleReadException(AbstractNioByteChannel.java:125) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:177) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[00:42:06] [Server thread/INFO]: thelemaua lost connection: Disconnected
-[00:42:06] [Server thread/INFO]: thelemaua left the game
-[00:42:24] [Server thread/INFO]: KpoJIeBapKa lost connection: Disconnected
-[00:42:24] [Server thread/INFO]: KpoJIeBapKa left the game
-[00:43:28] [Server thread/INFO]: KpoJIeBapKa[/192.168.0.1:62960] logged in with entity id 55798 at (784.4324136707997, 64.0, 938.8709650061824)
-[00:43:28] [Server thread/INFO]: KpoJIeBapKa joined the game
-[00:44:40] [Server thread/INFO]: thelemaua[/46.219.247.81:40852] logged in with entity id 56673 at (719.0685017437165, 65.0, 975.4446182367977)
-[00:44:40] [Server thread/INFO]: thelemaua joined the game
-[00:49:41] [Server thread/INFO]: thelemaua tried to swim in lava
-[00:49:42] [Server thread/WARN]: thelemaua moved too quickly! -43.03908213883756,113.5625,-146.8014230935214
-[00:49:42] [Server thread/WARN]: thelemaua moved too quickly! -43.03908213883756,113.5625,-146.8014230935214
-[00:51:09] [Server thread/INFO]: TheHomer lost connection: Disconnected
-[00:51:09] [Server thread/INFO]: TheHomer left the game
-[00:51:13] [Server thread/INFO]: [Not Secure] <thelemaua> dqdw
-[00:51:18] [Server thread/INFO]: TheHomer[/192.168.0.1:50189] logged in with entity id 61478 at (907.57403459058, 63.0, 798.5494548959435)
-[00:51:18] [Server thread/INFO]: TheHomer joined the game
-[00:51:21] [Server thread/INFO]: aceLmR lost connection: Disconnected
-[00:51:21] [Server thread/INFO]: aceLmR left the game
-[00:51:24] [Server thread/INFO]: TheHomer lost connection: Disconnected
-[00:51:24] [Server thread/INFO]: TheHomer left the game
-[00:51:27] [Server thread/INFO]: TheHomer[/192.168.0.1:47241] logged in with entity id 61641 at (907.6999999880791, 63.0, 798.4888221925057)
-[00:51:27] [Server thread/INFO]: TheHomer joined the game
-[00:51:29] [Server thread/INFO]: aceLmR[/92.177.185.219:58350] logged in with entity id 61784 at (1999.885515848526, 62.11076431274414, -1789.8634774096176)
-[00:51:29] [Server thread/INFO]: aceLmR joined the game
-[00:52:54] [Server thread/INFO]: thelemaua lost connection: Disconnected
-[00:52:54] [Server thread/INFO]: thelemaua left the game
-[00:55:18] [Server thread/INFO]: thelemaua[/46.219.247.81:40573] logged in with entity id 64967 at (718.5679076402258, 65.0, 969.9373442034523)
-[00:55:18] [Server thread/INFO]: thelemaua joined the game
-[00:55:21] [Server thread/INFO]: [KpoJIeBapKa: Gamerule mobGriefing is now set to: true]
-[00:55:25] [Server thread/INFO]: [KpoJIeBapKa: Gamerule mobGriefing is now set to: false]
-[00:55:42] [Server thread/INFO]: [KpoJIeBapKa: Kicked thelemaua: Kicked by an operator]
-[00:55:42] [Server thread/INFO]: thelemaua lost connection: Kicked by an operator
-[00:55:42] [Server thread/INFO]: thelemaua left the game
-[00:55:45] [Server thread/INFO]: thelemaua[/46.219.247.81:40661] logged in with entity id 65347 at (719.0157677257226, 65.0, 972.011133791356)
-[00:55:45] [Server thread/INFO]: thelemaua joined the game
-[00:55:46] [Server thread/INFO]: [KpoJIeBapKa: Kicked thelemaua: Kicked by an operator]
-[00:55:46] [Server thread/INFO]: thelemaua lost connection: Kicked by an operator
-[00:55:46] [Server thread/INFO]: thelemaua left the game
-[00:55:49] [Server thread/INFO]: thelemaua[/46.219.247.81:40681] logged in with entity id 65506 at (718.3898168254165, 65.0, 971.1475344089979)
-[00:55:49] [Server thread/INFO]: thelemaua joined the game
-[00:55:49] [Server thread/INFO]: [KpoJIeBapKa: Kicked thelemaua: Kicked by an operator]
-[00:55:49] [Server thread/INFO]: thelemaua lost connection: Kicked by an operator
-[00:55:49] [Server thread/INFO]: thelemaua left the game
-[00:55:52] [Server thread/INFO]: thelemaua[/46.219.247.81:40100] logged in with entity id 65556 at (718.3898168254165, 65.0, 971.1475344089979)
-[00:55:52] [Server thread/INFO]: thelemaua joined the game
-[00:55:52] [Server thread/INFO]: [KpoJIeBapKa: Kicked thelemaua: Kicked by an operator]
-[00:55:52] [Server thread/INFO]: thelemaua lost connection: Kicked by an operator
-[00:55:52] [Server thread/INFO]: thelemaua left the game
-[00:55:54] [Server thread/INFO]: thelemaua[/46.219.247.81:40477] logged in with entity id 65588 at (718.3898168254165, 65.0, 971.1475344089979)
-[00:55:54] [Server thread/INFO]: thelemaua joined the game
-[00:55:54] [Server thread/INFO]: [KpoJIeBapKa: Kicked thelemaua: Kicked by an operator]
-[00:55:54] [Server thread/INFO]: thelemaua lost connection: Kicked by an operator
-[00:55:54] [Server thread/INFO]: thelemaua left the game
-[00:55:56] [Server thread/INFO]: thelemaua[/46.219.247.81:40514] logged in with entity id 65633 at (718.3898168254165, 65.0, 971.1475344089979)
-[00:55:56] [Server thread/INFO]: thelemaua joined the game
-[00:55:58] [Server thread/INFO]: [KpoJIeBapKa: Kicked thelemaua: Kicked by an operator]
-[00:55:58] [Server thread/INFO]: thelemaua lost connection: Kicked by an operator
-[00:55:58] [Server thread/INFO]: thelemaua left the game
-[00:56:00] [Server thread/INFO]: thelemaua[/46.219.247.81:40630] logged in with entity id 65696 at (718.871574811741, 65.0, 971.7949811784154)
-[00:56:00] [Server thread/INFO]: thelemaua joined the game
-[00:56:00] [Server thread/INFO]: [KpoJIeBapKa: Kicked thelemaua: Kicked by an operator]
-[00:56:00] [Server thread/INFO]: thelemaua lost connection: Kicked by an operator
-[00:56:00] [Server thread/INFO]: thelemaua left the game
-[00:56:02] [Server thread/INFO]: thelemaua[/46.219.247.81:40157] logged in with entity id 65736 at (718.871574811741, 65.0, 971.7949811784154)
-[00:56:02] [Server thread/INFO]: thelemaua joined the game
-[00:56:04] [Server thread/INFO]: [KpoJIeBapKa: Kicked thelemaua: Kicked by an operator]
-[00:56:04] [Server thread/INFO]: thelemaua lost connection: Kicked by an operator
-[00:56:04] [Server thread/INFO]: thelemaua left the game
-[00:56:06] [Server thread/INFO]: thelemaua[/46.219.247.81:40312] logged in with entity id 65808 at (719.239876588603, 65.0, 971.9502390289591)
-[00:56:06] [Server thread/INFO]: thelemaua joined the game
-[00:56:07] [Server thread/INFO]: [KpoJIeBapKa: Kicked thelemaua: Kicked by an operator]
-[00:56:07] [Server thread/INFO]: thelemaua lost connection: Kicked by an operator
-[00:56:07] [Server thread/INFO]: thelemaua left the game
-[00:56:09] [Server thread/INFO]: thelemaua[/46.219.247.81:40402] logged in with entity id 65844 at (719.239876588603, 65.0, 971.9502390289591)
-[00:56:09] [Server thread/INFO]: thelemaua joined the game
-[00:56:09] [Server thread/INFO]: [KpoJIeBapKa: Kicked thelemaua: Kicked by an operator]
-[00:56:09] [Server thread/INFO]: thelemaua lost connection: Kicked by an operator
-[00:56:09] [Server thread/INFO]: thelemaua left the game
-[00:56:11] [Server thread/INFO]: thelemaua[/46.219.247.81:40314] logged in with entity id 65921 at (719.239876588603, 65.0, 971.9502390289591)
-[00:56:11] [Server thread/INFO]: thelemaua joined the game
-[00:56:12] [Server thread/INFO]: [KpoJIeBapKa: Kicked thelemaua: Kicked by an operator]
-[00:56:12] [Server thread/INFO]: thelemaua lost connection: Kicked by an operator
-[00:56:12] [Server thread/INFO]: thelemaua left the game
-[00:56:14] [Server thread/INFO]: thelemaua[/46.219.247.81:39942] logged in with entity id 65955 at (719.239876588603, 65.0, 971.9502390289591)
-[00:56:14] [Server thread/INFO]: thelemaua joined the game
-[00:56:20] [Server thread/INFO]: [KpoJIeBapKa: Kicked thelemaua: Kicked by an operator]
-[00:56:20] [Server thread/INFO]: thelemaua lost connection: Kicked by an operator
-[00:56:20] [Server thread/INFO]: thelemaua left the game
-[00:56:22] [Server thread/INFO]: thelemaua[/46.219.247.81:40045] logged in with entity id 66170 at (718.3243865944779, 65.0, 971.1772268372358)
-[00:56:22] [Server thread/INFO]: thelemaua joined the game
-[00:57:06] [Server thread/INFO]: KpoJIeBapKa lost connection: Disconnected
-[00:57:06] [Server thread/INFO]: KpoJIeBapKa left the game
+[22:30:37] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.8+12-LTS-250; Oracle Corporation null) on Windows 10 10.0 (amd64)
+[22:30:37] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-133-ver/1.21.1@3cb8529 (2025-03-28T16:14:36Z) for Minecraft 1.21.1
+[22:30:37] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[22:30:38] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[22:30:38] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - AuthMe (5.6.0-bCUSTOM)
+[22:30:41] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[22:30:41] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[22:30:41] [ServerMain/INFO]: Found new data pack paper, loading it automatically
+[22:30:42] [ServerMain/INFO]: Loaded 1290 recipes
+[22:30:42] [ServerMain/INFO]: Loaded 1399 advancements
+[22:30:42] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[22:30:42] [Server thread/WARN]: ****************************
+[22:30:42] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[22:30:42] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[22:30:42] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[22:30:42] [Server thread/WARN]: ****************************
+[22:30:42] [Server thread/INFO]: Loading properties
+[22:30:42] [Server thread/INFO]: This server is running Paper version 1.21.1-133-ver/1.21.1@3cb8529 (2025-03-28T16:14:36Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[22:30:43] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[22:30:43] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:30:43] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:30:43] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and population gen parallelism of 3 threads
+[22:30:44] [Server thread/INFO]: Default game type: SURVIVAL
+[22:30:44] [Server thread/INFO]: Generating keypair
+[22:30:44] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:30:44] [Server thread/INFO]: Using default channel type
+[22:30:44] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[22:30:44] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[22:30:44] [Server thread/INFO]: [AuthMe] Loading server plugin AuthMe v5.6.0-bCUSTOM
+[22:30:44] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:30:44] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:30:44] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:30:44] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:30:44] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:30:44] [Server thread/INFO]: Preparing level "world"
+[22:30:44] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:30:45] [Server thread/INFO]: Time elapsed: 595 ms
+[22:30:45] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[22:30:46] [Server thread/INFO]: Time elapsed: 1602 ms
+[22:30:46] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[22:30:46] [Server thread/INFO]: Time elapsed: 229 ms
+[22:30:46] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-bCUSTOM
+[22:30:47] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[22:30:47] [Server thread/INFO]: [AuthMe] No supported permissions system found! Permissions are disabled!
+[22:30:47] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[22:30:47] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[22:30:47] [Server thread/INFO]: [spark] Starting background profiler...
+[22:30:47] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[22:30:47] [Server thread/INFO]: Done preparing level "world" (3.386s)
+[22:30:47] [Server thread/INFO]: Running delayed init tasks
+[22:30:47] [Server thread/INFO]: Done (11.004s)! For help, type "help"
+[22:30:47] [Server thread/INFO]: Timings Reset
+[22:30:47] [Craft Scheduler Thread - 1 - AuthMe/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[22:30:47] [Craft Scheduler Thread - 1 - AuthMe/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[22:30:47] [Craft Scheduler Thread - 1 - AuthMe/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[22:30:47] [Craft Scheduler Thread - 1 - AuthMe/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+[22:31:12] [User Authenticator #0/INFO]: UUID of player KpoJIeBapKa is 7725e60c-d6f2-308b-b1b0-d94da499c488
+[22:31:13] [Server thread/INFO]: KpoJIeBapKa joined the game
+[22:31:13] [Server thread/INFO]: KpoJIeBapKa[/192.168.0.1:46050] logged in with entity id 11 at ([world]714.4657235153575, 74.5, 976.9902435191293)
+[22:31:16] [Server thread/INFO]: KpoJIeBapKa issued server command: /whitelist reload
+[22:31:22] [Craft Scheduler Thread - 5 - AuthMe/INFO]: [AuthMe] KpoJIeBapKa logged in 192.168.0.1
+[22:31:24] [Server thread/INFO]: KpoJIeBapKa issued server command: /whitelist reload
+[22:31:38] [Server thread/INFO]: Unknown or incomplete command, see below for error
+/op KpoJIeBapKa<--[HERE]
+[22:32:11] [Server thread/INFO]: Made KpoJIeBapKa a server operator
+[22:32:18] [Server thread/INFO]: KpoJIeBapKa issued server command: /whitelist reload
+[22:32:18] [Server thread/INFO]: [KpoJIeBapKa: Reloaded the whitelist]
+[22:32:22] [Server thread/INFO]: KpoJIeBapKa issued server command: /whitelist list
+[22:32:27] [Server thread/INFO]: KpoJIeBapKa issued server command: /whitelist add KpoJIeBapKa
+[22:32:27] [Server thread/INFO]: [KpoJIeBapKa: Added KpoJIeBapKa to the whitelist]
+[22:32:31] [Server thread/INFO]: KpoJIeBapKa issued server command: /whitelist add thelemaua
+[22:32:31] [Server thread/INFO]: [KpoJIeBapKa: Added thelemaua to the whitelist]
+[22:32:37] [Server thread/INFO]: KpoJIeBapKa lost connection: Disconnected
+[22:32:37] [Server thread/INFO]: KpoJIeBapKa left the game

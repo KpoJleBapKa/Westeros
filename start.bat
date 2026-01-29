@@ -9,5 +9,5 @@ java -Xms6G -Xmx8G ^
 -XX:G1HeapRegionSize=16M ^
 -XX:G1ReservePercent=20 ^
 -XX:G1HeapWastePercent=5 ^
--jar server.jar nogui
+-jar paper.jar nogui
 pause
