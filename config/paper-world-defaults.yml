@@ -267,6 +267,8 @@ fixes:
   prevent-tnt-from-moving-in-water: false
   split-overstacked-loot: true
   tnt-entity-height-nerf: disabled
+game-mechanics:
+  allow-piston-duplication: true
 hopper:
   cooldown-when-full: true
   disable-move-event: false

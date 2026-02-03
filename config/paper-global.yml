@@ -124,7 +124,7 @@ timings:
 unsupported-settings:
   allow-headless-pistons: false
   allow-permanent-block-break-exploits: false
-  allow-piston-duplication: false
+  allow-piston-duplication: true
   allow-tripwire-disarming-exploits: false
   allow-unsafe-end-portal-teleportation: false
   compression-format: ZLIB
