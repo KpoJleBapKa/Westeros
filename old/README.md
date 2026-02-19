@@ -1,2 +1,0 @@
-# Westeros
-Minecraft server

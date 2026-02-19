@@ -1,0 +1,124 @@
+# TreeCutter Plugin Configuration
+# This file contains admin-only settings for the TreeCutter plugin
+
+# General Settings
+settings:
+  # Enable/disable the plugin globally
+  enabled: true
+  
+  # Maximum number of logs that can be cut in one tree (prevents lag)
+  max-logs-per-tree: 128
+  
+  # Minimum number of logs required to be considered a "tree"
+  min-logs-for-tree: 3
+  
+  # Maximum distance to search for connected logs
+  max-search-distance: 32
+  
+  # Whether to drop items at the player's location or at each log location
+  drop-at-player: false
+  
+  # Enable debug messages (only visible to admins)
+  debug: false
+
+# World Settings - Configure per-world behavior
+worlds:
+  # Enable tree cutting in specific worlds
+  enabled-worlds:
+    - world
+    - world_nether
+    - world_the_end
+  
+  # Disable tree cutting in specific worlds (overrides enabled-worlds)
+  disabled-worlds: []
+
+# Block Settings - Configure which blocks are considered logs
+blocks:
+  # List of log types that can be tree-cut
+  allowed-logs:
+    - OAK_LOG
+    - SPRUCE_LOG
+    - BIRCH_LOG
+    - JUNGLE_LOG
+    - ACACIA_LOG
+    - DARK_OAK_LOG
+    - MANGROVE_LOG
+    - CHERRY_LOG
+    - BAMBOO_BLOCK
+    - CRIMSON_STEM
+    - WARPED_STEM
+    - STRIPPED_OAK_LOG
+    - STRIPPED_SPRUCE_LOG
+    - STRIPPED_BIRCH_LOG
+    - STRIPPED_JUNGLE_LOG
+    - STRIPPED_ACACIA_LOG
+    - STRIPPED_DARK_OAK_LOG
+    - STRIPPED_MANGROVE_LOG
+    - STRIPPED_CHERRY_LOG
+    - STRIPPED_BAMBOO_BLOCK
+    - STRIPPED_CRIMSON_STEM
+    - STRIPPED_WARPED_STEM
+
+# Messages Configuration
+messages:
+  # Prefix Settings
+  prefix: "&f[&6TreeCutter&f]" # White brackets with gold TreeCutter text
+  
+  # Player Messages
+  enabled: "%prefix% &fTree cutting enabled!"
+  disabled: "%prefix% &fTree cutting disabled!"
+  no-permission: "%prefix% &fYou don't have permission to use this command!"
+  
+  # Tree Cutting Messages
+  tree-cut-success: "%prefix% &fCut &f%logs% logs &ffrom the tree!" # Chat message with log count (white text)
+  tree-cut-actionbar: "&6⚡ &eTree Cut! &6%logs% logs &ecollected &6⚡" # Action bar message
+  tree-too-small: "%prefix% &fThis tree is too small to cut (&c%logs%&f/&a%min%&f logs)"
+  cooldown-active: "%prefix% &fPlease wait &4%time%s &fbefore cutting another tree!"
+  
+  # Missing Status Message Keys
+  status-header: "%prefix% &6=== &eTree Cutting Status &6==="
+  status-personal: "&7Personal Setting: %state%"
+  status-world: "&7Current World: %world_state%"
+  status-plugin: "&7Plugin Status: %plugin_state%"
+  status-active: "&a➤ &fTree cutting is active! Crouch while breaking logs."
+  status-inactive: "&c➤ &fTree cutting is currently inactive."
+  
+  # Help Messages
+  help-header: "%prefix% &6=== &eTreeCutter Help &6==="
+  help-toggle: "&e/tc &7- &fToggle tree cutting on/off"
+  help-on: "&e/tc on &7- &fEnable tree cutting"
+  help-off: "&e/tc off &7- &fDisable tree cutting"
+  help-status: "&e/tc status &7- &fCheck your current status"
+  help-help: "&e/tc help &7- &fShow this help message"
+  help-usage-header: "&6How to use:"
+  help-step1: "&71. &fEnable tree cutting with the command above"
+  help-step2: "&72. &fCrouch &7(&eshift&7) &fwhile breaking a log block"
+  help-step3: "&73. &fThe entire connected tree will be cut instantly!"
+  help-note: "&6Note: &7This only works on log blocks, not planks."
+  
+  # Admin Messages
+  config-reloaded: "%prefix% &fConfiguration reloaded successfully!"
+  plugin-disabled: "%prefix% &fPlugin is currently disabled in config!"
+  world-disabled: "%prefix% &fTree cutting is disabled in this world!"
+  
+  # Color States (used in status messages)
+  state-enabled: "&aEnabled"
+  state-disabled: "&cDisabled"
+  
+  # Debug Messages (only shown to admins when debug is enabled)
+  debug-tree-detected: "&8[&7TreeCutter Debug&8] &7Tree detected with &e%logs% &7logs"
+  debug-player-toggle: "&8[&7TreeCutter Debug&8] &7Player &e%player% &7toggled tree cutting: &e%state%"
+
+# Performance Settings
+performance:
+  # Delay between tree cutting operations (in ticks) to prevent spam
+  cut-delay: 5
+  
+  # Use async processing for large trees (experimental)
+  async-processing: false
+  
+  # Cache tree structures to improve performance
+  cache-trees: true
+  
+  # How long to cache tree structures (in seconds)
+  cache-duration: 30
